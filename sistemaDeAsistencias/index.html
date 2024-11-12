@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta
+    name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Login</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #ffffff;
+        }
+        .login-container {
+            background-color: #c4bcbc;
+            padding: 30px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.74);
+        }
+
+        .login-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .login-container input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            color: #020508;
+            border: 1px solid ;
+            border-radius: 3px;
+            box-sizing: border-box;
+        }
+
+        .login-container button {
+            background-color: rgb(90, 196, 98);
+            color: rgb(0, 0, 0);
+            padding: 15px 20px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            width: 100%;
+        }
+        h2 {
+            text-align: center;
+            color: #2196F3;
+;
+            font-size: 30px;
+            margin-bottom: 80px;
+        }
+        button {
+        font-size: 20px; /* Tamaño de fuente más grande */
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="login-container">
+
+    <form action="ingreso.php" method="post">
+    <h2>Iniciar Sesión</h2>
+  
+            <label for="usuario">Usuario:</label>
+            <input type="text" id="usuario" name="usuario" required maxlength="20" >
+        
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" name="contrasena" required maxlength="20" >
+
+        <button type="submit" >Ingresar</button>  
+    </form>
+
+    
+    </div>
+</body
